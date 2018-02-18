@@ -1,0 +1,22 @@
+{
+  "extends": "eslint-config-airbnb-es5",
+  "globals": {
+    "angular": true,
+    "Modernizr": true,
+    "navigator": true,
+    "window": true,
+    "module": true,
+    "localStorage": true,
+  },
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script"
+  },
+  "rules": {
+    "func-names": ["error", "never"],
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": ["error", { "functions": "never", "keywords": "always", "classes": "never" }],
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "indent": ["error", 2]
+  }
+}
